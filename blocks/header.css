@@ -1,52 +1,10 @@
-.favicon {
-  max-width: 880px;
-  max-height: 74px;
-  margin: auto;
-}
-
-.favicon__icon {
-  max-width: 173px;
-  max-height: 33px;
-}
-
 .header {
-  align-content: center;
   max-width: 880px;
-  max-height: 120px;
   margin: auto;
-  background: lightgreen;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
-
-.header__profile_info {
-  max-width: 880px;
-  max-width: 120px;
-}
-.header__profile_picture {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-}
-.header__profile_username {
-  max-width: 373px;
-  max-height: 39px;
-  color: #fff;
-  font-family: "Inter";
-  font-size: 42px;
-  font-weight: 500;
-}
-.header__profile_description {
-  max-width: 415px;
-  max-height: 22px;
-  color: #fff;
-  font-family: "Inter";
-  font-size: 18px;
-  font-weight: 400;
-}
-.header__profile_edit-button {
-  width: 24px;
-  height: 24px;
-}
-.header__add_button {
-  width: 150px;
-  height: 50px;
+.header__logo {
+  width: 173px;
+  height: 33px;
 }

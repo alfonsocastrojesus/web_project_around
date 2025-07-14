@@ -8,26 +8,25 @@
   </head>
   <body>
     <div class="page">
-      <div class="favicon">
-        <img class="favicon__icon" src="./images/favicon.icon.png" alt="icon" />
-      </div>
       <header class="header">
-        <div class="header__profile_info">
-          <img
-            class="header__profile_picture"
-            src="./images/profile.jpg"
-            alt=""
-          />
-          <p class="header__profile_username">Einsten Mexicano</p>
-          <p class="header__profile_description">Genio</p>
-          <button class="header__profile_edit-button"></button>
-          <button class="header__add_button"></button>
-        </div>
+        <img class="header__logo" src="./images/favicon.icon.png" alt="logo" />
       </header>
       <main class="main">
-        <section class="gallery"></section>
+        <div class="main__profile-picture">
+          <img class="main__profile-photo" src="./images/einstein-profile.jpg" alt="profile picture">
+        </div>
+        <div class="main__profile_text">
+          <p class="main__profile main__profile-name">Albert Einstein</p>
+          <p class="main__profile main__profile-occupation">Genio</p>
+        </div>
+        <button class="main__button main__button-edit" type="button" <span style="display:inline-block; transform: scaleX(-1);">&#x270E;</span>
+</button>
+        <button class="main__button main__button-add" type="button">&#65291;</button>
+        
+
+
+
       </main>
-    </div>
     <script src="./scripts/script.js"></script>
   </body>
 </html>
