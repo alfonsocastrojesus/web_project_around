@@ -3,10 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="page"></div>
+    <div class="page">
+      <header class="header">
+        <img class="header__image" src="/favicon.png" alt="title icon" />
+      </header>
+      <main class="main">
+        <section class="profile">
+          <div class="profile__image">
+            <img
+              class="profile__picture"
+              src="./images/einstein.jpg"
+              alt="einstein"
+            />
+          </div>
+          <div class="profile__text">
+            <p class="profile__name">
+              Albert Einstein
+              <img
+                type="button"
+                class="button__image"
+                src="./images/edit_image.png"
+                alt="edit button"
+              />
+            </p>
+            <p class="profile__description">Genio</p>
+          </div>
+          <div class="button__add">
+            <img
+              type="button"
+              class="button__add-image"
+              src="./images/add.png"
+              alt="add button"
+            />
+          </div>
+        </section>
+      </main>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

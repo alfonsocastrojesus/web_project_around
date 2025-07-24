@@ -1,0 +1,8 @@
+.header {
+  max-width: 880px;
+  margin: 20px auto;
+}
+.header__image {
+  max-width: 880px;
+  max-height: 74px;
+}
