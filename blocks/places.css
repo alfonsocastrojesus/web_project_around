@@ -1,0 +1,35 @@
+.places {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 2fr);
+  gap: 10px;
+  width: 880px;
+  height: 743px;
+  margin-top: 40px;
+}
+.places__card {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 282px;
+  height: 361px;
+}
+.places__image {
+  width: 282px;
+  height: 282px;
+  border-radius: 5px 5px 0 0;
+}
+.places__title {
+  font-size: 24px;
+  font-weight: 900;
+  color: black;
+  width: 210px;
+  height: 30px;
+  margin-left: 15px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.places__like-icon {
+  width: 20px;
+  height: 19px;
+}

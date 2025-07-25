@@ -1,8 +1,10 @@
 .header {
   max-width: 880px;
-  margin: 20px auto;
+  margin: auto;
 }
 .header__image {
   max-width: 880px;
   max-height: 74px;
+  padding-top: 20px;
+  margin-top: 10px;
 }
