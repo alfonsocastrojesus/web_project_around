@@ -31,19 +31,28 @@
   font-weight: 400;
   margin-top: 0;
 }
-.button {
+.button__edit {
+  background: none;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+.button__edit-image {
+  display: block;
   width: 24px;
   height: 24px;
 }
-.button__image {
-  width: 24px;
-  height: 24px;
-}
+
 .button__add {
+  background: none;
+  padding: 0;
+  border: none;
+  cursor: pointer;
   align-self: center;
   justify-self: right;
 }
 .button__add-image {
+  display: block;
   width: 150px;
   height: 50px;
 }

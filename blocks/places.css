@@ -22,14 +22,28 @@
   font-size: 24px;
   font-weight: 900;
   color: black;
-  width: 210px;
+  width: 220px;
   height: 30px;
-  margin-left: 15px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
-.places__like-icon {
+
+.places__title-heart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.button__heart {
+  background-color: #fff;
+  border: none;
+  width: 30px;
+  height: 19px;
+}
+
+.places__heart-button {
   width: 20px;
   height: 19px;
+  margin-top: 25px;
+  margin-right: 20px;
 }
