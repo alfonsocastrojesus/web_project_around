@@ -1,0 +1,10 @@
+.footer {
+  color: #545454;
+  max-width: 880px;
+  max-height: 18px;
+  margin: auto;
+}
+.footer__text {
+  font-size: 18px;
+  padding-top: 20px;
+}
