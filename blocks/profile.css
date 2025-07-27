@@ -1,101 +1,60 @@
-.profile {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 880px;
-  max-height: 120px;
+.profile__info {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
 }
+
 .profile__image {
   width: 120px;
   height: 120px;
 }
-.profile__picture {
+.profile__image-user {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  margin-top: 10px;
-  background-color: whitesmoke;
-  border: solid whitesmoke 2px;
+  background-color: aliceblue;
+  border: 3px solid golden;
 }
-.profile__text {
-  font-family: "Inter", sans-serif;
-  color: #fff;
-  width: 580px;
-  justify-self: left;
+.profile__username {
+  max-width: 415px;
+  max-height: 77px;
+  justify-self: flex-start;
 }
-.profile__name {
+.profile__complete-name {
   font-size: 42px;
   font-weight: 500;
   margin-bottom: 0;
 }
-.profile__description {
+.button__edit {
+  height: 24px;
+  width: 24px;
+  border: none;
+  background-color: black;
+}
+.button__edit-image {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.profile__occupation {
   font-size: 18px;
   font-weight: 400;
   margin-top: 0;
 }
-.button__edit {
-  background: none;
-  padding: 0;
-  border: none;
-  cursor: pointer;
-}
-.button__edit-image {
-  display: block;
-  width: 24px;
-  height: 24px;
-}
-
-.button__add {
-  background: none;
-  padding: 0;
-  border: none;
-  cursor: pointer;
+.add {
   align-self: center;
-  justify-self: right;
-}
-.button__add-image {
-  display: block;
   width: 150px;
   height: 50px;
 }
-@media screen and (min-width: 320px) and (max-width: 879px) {
-  .profile {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-height: 288px;
-  }
-  .profile__image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 100px;
-    margin-top: 20px;
-  }
-  .profile__text {
-    margin: auto;
-    max-width: 196px;
-  }
-  .profile__name {
-    font-size: 22px;
-    font-weight: 500;
-    max-width: 196px;
-    padding-left: 20px;
-  }
-  .button__edit-image {
-    display: block;
-    width: 18px;
-    height: 18px;
-  }
-  .profile__description {
-    max-width: 282px;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-  }
-  .button__add-image {
-    display: block;
-    width: 282px;
-    height: 50px;
-  }
+.add__button {
+  width: 140px;
+  height: 50px;
+  border: none;
+  background-color: black;
+}
+.add__button-image {
+  width: 140px;
+  height: 50px;
+  cursor: pointer;
 }
