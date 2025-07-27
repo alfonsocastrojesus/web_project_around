@@ -55,10 +55,10 @@
     flex-direction: column;
     column-gap: 10px;
     margin: 40px 20px 0 20px;
+    max-width: 320px;
   }
 }
 .profile__username {
   color: #fff;
   font-family: "Inter-Regular", sans-serif;
 }
-.profile__username;
