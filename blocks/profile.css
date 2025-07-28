@@ -30,7 +30,13 @@
   height: 24px;
   width: 24px;
   border: none;
+  font-size: 0;
   background-color: black;
+  padding: 0;
+}
+.button__edit:hover {
+  background-color: lightgray;
+  font-size: 0;
 }
 .button__edit-image {
   width: 24px;
@@ -51,7 +57,13 @@
   width: 140px;
   height: 50px;
   border: none;
+  font-size: 0;
+  padding: 0;
   background-color: black;
+}
+.add__button:hover {
+  background-color: lightgrey;
+  font-size: 0;
 }
 .add__button-image {
   width: 140px;
