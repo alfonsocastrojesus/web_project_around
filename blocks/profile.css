@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: auto;
   gap: 10px;
+  position: relative;
 }
 
 .profile__image {
@@ -33,6 +34,9 @@
   font-size: 0;
   background-color: black;
   padding: 0;
+  position: relative;
+  left: 300px;
+  bottom: 35px;
 }
 .button__edit:hover {
   background-color: lightgray;
@@ -95,12 +99,12 @@
     height: 50px;
   }
   .button__edit {
-    height: 16px;
-    width: 16px;
+    height: 24px;
+    width: 24px;
   }
   .button__edit-image {
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
   }
   .profile__occupation {
