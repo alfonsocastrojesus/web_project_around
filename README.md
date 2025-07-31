@@ -19,8 +19,6 @@ Fue realizado utilizando:
 - Metodologia BEM
 - Media queries
 
-![HTML5-logo](./images/html-5-logo.svg)
-![CSS3-logo](./images/CSS3_logo_and_wordmark.svg)
-![JavaScript-logo](./images/javascript-Logo.svg)
-
 ### Link de la página desplegada
+
+https://alfonsocastrojesus.github.io/web_project_around/
