@@ -21,7 +21,7 @@
   padding: 15px 15px 15px 35px;
   position: relative;
 }
-.popup__button_close {
+.popup__button-close {
   background-color: black;
   color: white;
   max-width: 40px;

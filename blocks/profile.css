@@ -1,4 +1,4 @@
-.main__profile__info {
+.main__profile-info {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: auto;
@@ -6,29 +6,29 @@
   position: relative;
 }
 
-.main__profile__image {
+.main__profile-image {
   width: 120px;
   height: 120px;
 }
-.main__profile__image-user {
+.main__profile-imageuser {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   background-color: aliceblue;
   border: 3px solid golden;
 }
-.main__profile__username {
+.main__profile-username {
   max-width: 415px;
   max-height: 77px;
   justify-self: flex-start;
 }
-.main__profile__complete-name {
+.main__profile-completename {
   font-size: 42px;
   font-weight: 500;
   margin-bottom: 0;
   color: white;
 }
-.main__button__edit {
+.main__button-edit {
   height: 24px;
   width: 24px;
   border: none;
@@ -39,16 +39,16 @@
   left: 300px;
   bottom: 35px;
 }
-.main__button__edit:hover {
+.main__button-edit:hover {
   background-color: lightgray;
   font-size: 0;
 }
-.main__button__edit-image {
+.main__button-editimage {
   width: 24px;
   height: 24px;
   cursor: pointer;
 }
-.main__profile__occupation {
+.main__profile-occupation {
   font-size: 18px;
   font-weight: 400;
   margin-top: 0;
@@ -77,7 +77,7 @@
   cursor: pointer;
 }
 @media screen and (min-width: 320px) and (max-width: 879px) {
-  .main__profile__info {
+  .main__profile-info {
     max-width: 320px;
     display: flex;
     row-gap: 10px;
@@ -100,16 +100,16 @@
     width: 282px;
     height: 50px;
   }
-  .main__button__edit {
+  .main__button-edit {
     height: 24px;
     width: 24px;
   }
-  .main__button__edit-image {
+  .main__button-editimage {
     width: 24px;
     height: 24px;
     cursor: pointer;
   }
-  .main__profile__occupation {
+  .main__profile-occupation {
     text-align: center;
   }
 }
