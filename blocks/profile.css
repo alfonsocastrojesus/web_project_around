@@ -1,4 +1,4 @@
-.profile__info {
+.main__profile__info {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: auto;
@@ -6,28 +6,29 @@
   position: relative;
 }
 
-.profile__image {
+.main__profile__image {
   width: 120px;
   height: 120px;
 }
-.profile__image-user {
+.main__profile__image-user {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   background-color: aliceblue;
   border: 3px solid golden;
 }
-.profile__username {
+.main__profile__username {
   max-width: 415px;
   max-height: 77px;
   justify-self: flex-start;
 }
-.profile__complete-name {
+.main__profile__complete-name {
   font-size: 42px;
   font-weight: 500;
   margin-bottom: 0;
+  color: white;
 }
-.button__edit {
+.main__button__edit {
   height: 24px;
   width: 24px;
   border: none;
@@ -38,19 +39,20 @@
   left: 300px;
   bottom: 35px;
 }
-.button__edit:hover {
+.main__button__edit:hover {
   background-color: lightgray;
   font-size: 0;
 }
-.button__edit-image {
+.main__button__edit-image {
   width: 24px;
   height: 24px;
   cursor: pointer;
 }
-.profile__occupation {
+.main__profile__occupation {
   font-size: 18px;
   font-weight: 400;
   margin-top: 0;
+  color: white;
 }
 .add {
   align-self: center;
@@ -75,7 +77,7 @@
   cursor: pointer;
 }
 @media screen and (min-width: 320px) and (max-width: 879px) {
-  .profile__info {
+  .main__profile__info {
     max-width: 320px;
     display: flex;
     row-gap: 10px;
@@ -98,16 +100,16 @@
     width: 282px;
     height: 50px;
   }
-  .button__edit {
+  .main__button__edit {
     height: 24px;
     width: 24px;
   }
-  .button__edit-image {
+  .main__button__edit-image {
     width: 24px;
     height: 24px;
     cursor: pointer;
   }
-  .profile__occupation {
+  .main__profile__occupation {
     text-align: center;
   }
 }

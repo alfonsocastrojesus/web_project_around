@@ -1,12 +1,12 @@
 const popUp = document.querySelector(".popup");
 const closeButton = document.querySelector(".popup__button_close");
-const editButton = document.querySelector(".button__edit");
+const editButton = document.querySelector(".main__button__edit");
 
 const nameInput = document.querySelector("#completename");
 const aboutInput = document.querySelector("#occupation");
 const form = document.querySelector(".form");
-const userName = document.querySelector(".profile__complete-name");
-const userAbout = document.querySelector(".profile__occupation");
+const userName = document.querySelector(".main__profile__complete-name");
+const userAbout = document.querySelector(".main__profile__occupation");
 closeButton.addEventListener("click", function () {
   popUp.classList.add("popup__hidden");
 });
