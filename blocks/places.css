@@ -34,7 +34,7 @@
   flex-direction: row;
   justify-content: space-around;
 }
-.button__heart {
+.places__button-heart {
   background-color: #fff;
   border: none;
   width: 30px;

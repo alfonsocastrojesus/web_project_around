@@ -11,7 +11,7 @@
   overlay: 1;
 }
 
-.popup__hidden {
+.popup--hidden {
   display: none;
 }
 
